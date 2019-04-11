@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weekly WebDev Challenge #2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700,900" rel="stylesheet">
+
+    <!-- Bootstrap 3 | Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar" class="navbar navbar-default navbar-fixed-top navbar-margin-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Cahee</a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#home-anchor">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#about-anchor">About</a></li>
+                        <li><a href="#services-anchor">Services</a></li>
+                        <li><a href="#gallery-anchor">Gallery</a></li>
+                        <li><a href="#blog-anchor">Blog</a></li>
+                        <li><a href="#contact-anchor">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <span id="home-anchor" class="anchor"></span>
+    <section id="home">
+        <div class="container home">
+            <div class="col-md-4 home__header text-dark">
+                <h1 class="home__header__title">Fresh Life</h1>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis
+                    nostrud
+                    exercitation ullamco.</p>
+                <button type="submit" class="btn btn-getfree">GET FREE NOW</button>
+            </div>
+            <div class="col-md-1 home__scroll">
+                <img src="./img/icons/scroll.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End Of Home -->
+
+    <span id="about-anchor" class="anchor"></span>
+    <section id="about">
+        <div class="container center">
+            <div class="col-xs-6 col-md-6">
+                <img src="./img/about_us_img.png" alt="">
+            </div>
+            <div class="col-md-6 about__description text-light">
+                <h1 class="section-header">About Us</h1>
+                <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum.
+                </p>
+                <p>
+                    Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Of About -->
+
+    <span id="services-anchor" class="anchor"></span>
+    <section id="services">
+        <div class="container center">
+            <div class="col-md-6">
+                <div class="item">
+                    <div class="item__text">
+                        <p>Online Shopping</p>
+                    </div>
+                    <div class="item__img">
+                        <img src="./img/icons/cart_icon.png" alt="Cart">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__text">
+                        <p>Quality Product</p>
+                    </div>
+                    <div class="item__img">
+                        <img src="./img/icons/quality_icon.png" alt="Cart">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__text">
+                        <p>Domestic & International Delivery</p>
+                    </div>
+                    <div class="item__img">
+                        <img src="./img/icons/domestic_icon.png" alt="Cart">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__text">
+                        <p>Well Organized</p>
+                    </div>
+                    <div class="item__img">
+                        <img src="./img/icons/wellorganized_icon.png" alt="Cart">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-10 col-md-6">
+                <div class="services__media">
+                    <img class="media__img" src="./img/services_img.png" alt="">
+                    <div class="media__heading">
+                        <h1 class="section-header text-light">Our Services</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Of Services -->
+
+    <span id="gallery-anchor" class="anchor"></span>
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <h1 class="section-header">Gallery</h1>
+                    <p>
+                        Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="gallery-wrapper">
+                <!-- First row -->
+                <div class="row center">
+                    <div class="col-xs-8 col-sm-8 col-md-8">
+                        <img class="gallery-wrapper__img" src="./img/gallery_img_1.jpg">
+                    </div>
+                    <div class="col-xs-8 col-sm-4 col-md-4">
+                        <img class="gallery-wrapper__img" src="./img/gallery_img_2.jpg">
+                        <img class="gallery-wrapper__img" src="./img/gallery_img_3.jpg">
+                    </div>
+                </div>
+
+                <!-- Second row -->
+                <div class="row center">
+                    <div class="col-xs-8 col-sm-6 col-md-6">
+                        <img class="gallery-wrapper__img" src="./img/gallery_img_4.jpg">
+                    </div>
+                    <div class="col-xs-8 col-sm-6 col-md-6">
+                        <img class="gallery-wrapper__img" src="./img/gallery_img_5.jpg">
+                    </div>
+                </div>
+
+                <!-- Third row -->
+                <div class="row center">
+                    <div class="col-xs-8 col-sm-4 col-md-4">
+                        <img class="gallery-wrapper__img hidden" src="https://source.unsplash.com/1600x900/?nature,food">
+                    </div>
+                    <div class="col-xs-8 col-sm-4 col-md-4">
+                        <img class="gallery-wrapper__img hidden" src="https://source.unsplash.com/1600x900/?nature,fruits">
+                    </div>
+                    <div class="col-xs-8 col-sm-4 col-md-4">
+                        <img class="gallery-wrapper__img hidden" src="https://source.unsplash.com/1600x900/?food,juice">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-gallery" data-text-swap="View Less">View More</button>
+        </div>
+    </section>
+    <!-- End Of Gallery -->
+
+    <span id="subscribe-anchor" class="anchor"></span>
+    <section id="subscribe">
+        <div class="container">
+            <div class="col-md-6">
+                <h1 class="subscribe__header__title">Subscribe To Us</h2>
+                    <p>Dolor sit amet, cosectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        delore
+                        magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="col-md-12">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your email address..."
+                            required>
+                    </div>
+                    <button for="email" type="submit" class="btn btn-subscribe">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Of Subscribe -->
+
+    <span id="blog-anchor" class="anchor"></span>
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 text-light">
+                    <h1 class="section-header">Blog</h1>
+                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+            </div>
+            <div class="blog__gallery">
+                <div class="col-md-4">
+                    <div class="blog__gallery__item">
+                        <img class="blog__gallery__item__img" src="./img/blog_1.jpg" alt="">
+                        <div class="blog__gallery__item__date">
+                            20 NOV
+                        </div>
+                        <div class="blog__gallery__item__post">
+                            <p class="post__text">Green Smoothies: Too Much of a Good Thing?</p>
+                            <p class="post__author">By Auskteez - 2 hours ago</p>
+                        </div>
+                        <div class="blog__gallery__item__gradient"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog__gallery__item">
+                        <img class="blog__gallery__item__img" src="./img/blog_2.jpg" alt="">
+                        <div class="blog__gallery__item__date">
+                            14 NOV
+                        </div>
+                        <div class="blog__gallery__item__post">
+                            <p class="post__text">Growing Food and a "Thirst" for Innovation</p>
+                            <p class="post__author">By Auskteez - 3 hours ago</p>
+                        </div>
+                        <div class="blog__gallery__item__gradient"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog__gallery__item">
+                        <img class="blog__gallery__item__img" src="./img/blog_3.jpg" alt="">
+                        <div class="blog__gallery__item__date">
+                            10 NOV
+                        </div>
+                        <div class="blog__gallery__item__post">
+                            <p class="post__text">Pesticides & Food: What you Need to Know</p>
+                            <p class="post__author">By Auskteez - 6 hours ago</p>
+                        </div>
+                        <div class="blog__gallery__item__gradient"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden">
+                    <div class="blog__gallery__item">
+                        <img class="blog__gallery__item__img" src="./img/blog_4.jpg" alt="">
+                        <div class="blog__gallery__item__date">
+                            19 MAR
+                        </div>
+                        <div class="blog__gallery__item__post">
+                            <p class="post__text">Lorem ipsum dolor sit amet.</p>
+                            <p class="post__author">Photo by Mae Mu on Unsplash</p>
+                        </div>
+                        <div class="blog__gallery__item__gradient"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden">
+                    <div class="blog__gallery__item">
+                        <img class="blog__gallery__item__img" src="./img/blog_5.jpg" alt="">
+                        <div class="blog__gallery__item__date">
+                            19 MAR
+                        </div>
+                        <div class="blog__gallery__item__post">
+                            <p class="post__text">Est fugit rerum facere quibusdam ab! Nemo!
+                            </p>
+                            <p class="post__author">Photo by Daniela Domingues on Unsplash</p>
+                        </div>
+                        <div class="blog__gallery__item__gradient"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-blog" data-text-swap="View Less">View More</button>
+        </div>
+    </section>
+    <!-- End Of Blog -->
+
+    <span id="contact-anchor" class="anchor"></span>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-4">
+                    <h1>Contact</h1>
+                    <p>For new projects, idead, business or anything you'd like to discuss, contact with me!</p>
+                </div>
+            </div>
+            <div class="row address-and-form">
+                <div class="col-md-5">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" value="Auskteez Tran" class="form-control input-lg" disabled>
+                            <div class="form__border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control input-lg" id="email" placeholder="Your email..." required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control  input-lg" id="phoneNumber"
+                                placeholder="Your phone number..." required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control  input-lg" rows="10" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-5 address">
+                    <h4 class="address__header">Address</h4>
+                    <p class="address_paragraph">123 City name, Street, City, Country</p>
+                    <h4 class="address__header">Email</h4>
+                    <p class="address_paragraph">cahee@domain.com</p>
+                    <h4 class="address__header">Phone</h4>
+                    <p class="address_paragraph">+012 345 6789</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Of Contact -->
+
+    <footer>
+        <div class="col-md-3">
+            <p>&copy 2015 Company. All right reserved.</p>
+        </div>
+        <div class="col-md-3">
+            <p class="footer__logo">Cahee</p>
+        </div>
+        <div class="col-md-3">
+            <p>Designed with <span class="love">love</span> by Auskteez</p>
+            <p>Coded with <span class="love">love</span> by Pepe</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
+
+    <!-- MY JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
